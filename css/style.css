@@ -1,0 +1,42 @@
+/* Common style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title-main {
+    color: #363958;
+}
+
+.title-socendery {
+    color: #fa804c;
+}
+
+/* Header style */
+
+/* Header banner starting*/
+.slider {
+    background-color: #FEEAE9;
+}
+
+.product-info h2 {
+    line-height: 60px;
+}
+
+.product-info h2 span {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.common-btn {
+    background-color: #3D4FF3;
+    color: #fff9f4;
+    padding: 12px 30px;
+    border: none;
+}
+
+.common-btn:hover {
+    background-color: #fa804c;
+    border: none;
+    color: #fff9f4;
+}
