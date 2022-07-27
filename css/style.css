@@ -40,3 +40,56 @@
     border: none;
     color: #fff9f4;
 }
+
+/* Header banner ending */
+
+/* Media queary */
+
+/* Mobile divice */
+
+@media screen and (max-width:576px) {
+    .single-slider {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .slider-img {
+        margin: auto !important;
+    }
+
+    .product-info {
+        margin-left: 0px !important;
+        padding-left: 0px !important;
+        margin-top: 20px !important;
+    }
+
+    .product-info h2 {
+        line-height: 50px;
+    }
+
+    .product-info h2 span {
+        font-size: 40px;
+    }
+}
+
+/* tablet device */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .slider-img {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .product-info {
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .product-info h2 {
+        line-height: 48px;
+    }
+
+    .product-info h2 span {
+        font-size: 40px;
+    }
+}
