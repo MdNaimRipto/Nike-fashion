@@ -57,6 +57,7 @@
     top: auto;
     right: 1rem;
     font-size: 70%;
+    border-left: 5px solid #3D4FF3;
     box-shadow: 0px 0px 5px 0px;
 }
 
