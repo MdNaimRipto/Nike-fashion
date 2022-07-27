@@ -12,6 +12,11 @@
     color: #fa804c;
 }
 
+.main-col {
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 8px -3px;
+}
+
 /* Header style */
 
 /* Header banner starting*/
@@ -43,11 +48,44 @@
 
 /* Header banner ending */
 
+/* Header ending */
+
+/* Casual shoes section starting */
+
+.offer-toast {
+    position: absolute;
+    top: auto;
+    right: 1rem;
+    font-size: 70%;
+    box-shadow: 0px 0px 5px 0px;
+}
+
+.see-all {
+    display: block;
+    float: right;
+    margin-right: 5%;
+}
+
+.see-all-btn {
+    color: #fa804c;
+    border: none;
+    font-weight: 500;
+}
+
+.see-all-btn:hover {
+    color: #363958;
+
+}
+
 /* Media queary */
 
 /* Mobile divice */
 
 @media screen and (max-width:576px) {
+    .nav-logo {
+        width: 50% !important;
+    }
+
     .single-slider {
         flex-direction: column;
         text-align: center;
@@ -70,11 +108,35 @@
     .product-info h2 span {
         font-size: 40px;
     }
+
+    .information-section {
+        flex-direction: column-reverse;
+        margin: auto;
+        text-align: center;
+    }
+
+    .single-info-section {
+        flex-direction: column;
+    }
+
+    .info-img {
+        margin-bottom: 2rem;
+        width: 50% !important;
+    }
+
+    .information-img {
+        margin: auto;
+        margin-bottom: 4rem;
+    }
 }
 
 /* tablet device */
 
 @media screen and (min-width:576px) and (max-width:992px) {
+    .nav-logo {
+        width: 50% !important;
+    }
+
     .slider-img {
         width: 100% !important;
         margin-left: 0 !important;
@@ -92,4 +154,25 @@
     .product-info h2 span {
         font-size: 40px;
     }
+
+    .information-section {
+        flex-direction: column-reverse;
+        margin: auto;
+        text-align: center;
+    }
+
+    .single-info-section {
+        flex-direction: column;
+    }
+
+    .info-img {
+        margin-bottom: 2rem;
+        width: 50% !important;
+    }
+
+    .information-img {
+        margin: auto;
+        margin-bottom: 4rem;
+    }
+
 }
